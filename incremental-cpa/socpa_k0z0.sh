@@ -1,0 +1,18 @@
+time xpython3 main.py --task 1\
+                 --selection-function z0\
+                 --n-bits-selection-function 1\
+                 --target-key k0\
+                 --first-subkey-index 1 2 5 8 11 12 15 18 19 22 25 28 29 32 35 39 42 45 49 52 55 59 62\
+                 --n-rank 10\
+                 --n-traces 10000\
+                 --to-shuffle\
+                 --n-repetition 1\
+                 --space 10000\
+                 --path-to-traces ../protected-bi32-armv6/traces\
+                 --start-sample 1050\
+                 --end-sample 1400\
+                 --step 2000\
+                 --window 50\
+                 --data-type float64\
+                 --path-to-nonces ../protected-bi32-armv6/nonces.npy\
+                 --path-to-checkpoints ../protected-bi32-armv6/checkpoints
