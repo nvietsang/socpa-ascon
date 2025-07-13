@@ -6,7 +6,8 @@ Supporting code for the paper [Practical Second-Order CPA Attack on Ascon with P
 
 - [analysis](./analysis/): source code for the analysis in the paper
 - [incremental-cpa](./incremental-cpa/): source code for the incremental second-order CPA
-- [protected-bi32-armv6](./protected-bi32-armv6/): traces and nonces for testing purpose
+- [protected-bi32-armv6](./protected-bi32-armv6/): traces and nonces for second-order CPA testing purpose
+- [unprotected](./unprotected/): traces and nonces for analysis purpose
 
 ## To run the SOCPA
 
