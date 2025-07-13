@@ -1,4 +1,4 @@
-time xpython3 main.py --task 1\
+time python3 main.py --task 1\
                  --selection-function z1\
                  --n-distinguisher-bits 1\
                  --target-key k1\
